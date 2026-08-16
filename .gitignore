@@ -1,0 +1,36 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Tooling
+.DS_Store
+.idea/
+.vscode/
+coverage/
+dist/
+build/
+
+# Local dev databases (SQLite fallback when PostgreSQL is unavailable)
+*.db
+*.sqlite
+*.sqlite3
+
+# Freebuff runtime files
+.freebuff/
